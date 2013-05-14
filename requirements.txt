@@ -4,6 +4,3 @@ gunicorn
 supervisor
 django-debug-toolbar
 south
-dj-database-url
-psycopg2
-django-tastypie

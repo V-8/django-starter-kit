@@ -84,6 +84,7 @@ def setup_dev_env():
 # 初始化生产环境，首次执行
 def setup_deploy_env():
     with cd(deploy_env_dir):
+        run('virtualenv-2.7 .')
         run('source bin/activate')
         with open(install_file) as f:
             for inst in f.readlines():
