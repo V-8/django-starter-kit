@@ -67,7 +67,8 @@ def setup():
         local('git init && git add . && git commit -m "initial commit"')
         local('git remote add origin %s@%s:%s' % ('user_name', 'host_ip_address', repo_project_dir))
     with cd(deploy_dir):
-        run('rm -rf env_project_name && mkdir env_project_name && cd env_project_name')
+        run('rm -rf env_project_name && mkdir env_project_name')
+        cd(deploy_env_dir)
         run('git clone %s' % repo_project_dir)
     setup_deploy_env()
 
