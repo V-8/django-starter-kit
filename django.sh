@@ -12,6 +12,7 @@ host_ip_address=$2
 user_name=$3
 
 cd /Users/creativito/Documents/src/dev/
+rm -rf env_$1
 mkdir env_$1
 cd env_$1
 virtualenv-2.7 .
@@ -27,7 +28,3 @@ sed -i '' 's/user_name/'$3'/g' fabfile.py
 wget https://raw.github.com/creativito/django-starter-kit/master/requirements.txt
 
 fab setup
-
-
-
-
