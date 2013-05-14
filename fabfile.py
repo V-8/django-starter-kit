@@ -4,18 +4,23 @@ from fabric.state import env
 from fabric.context_managers import lcd, cd
 import os
 
+#替换以下参数
+#host_ip_address
+#user_name
+#project_name
+
 #远程主机(git仓库+生产环境)
-env.hosts = ['xxx.xxx.xxx.xxx']  # 可配置多个远程主机
-env.user = 'username'  # ssh账户
+env.hosts = ['host_ip_address']  # 可配置多个远程主机
+env.user = 'user_name'  # ssh账户
 
 #本地开发环境配置
 dev_env_dir = os.path.split(os.path.realpath(__file__))[0]
-dev_dir = os.path.join(dev_env_dir, 'myproject')
+dev_dir = os.path.join(dev_env_dir, 'project_name')
 install_file = os.path.join(dev_env_dir, 'requirements.txt')  # pip安装列表
 
 #生产环境配置
-deploy_env_dir = '/var/www/production/env_mytest'
-deploy_dir = os.path.join(deploy_env_dir, 'myproject')
+deploy_env_dir = '/var/www/production/env_project_name'
+deploy_dir = os.path.join(deploy_env_dir, 'project_name')
 
 
 #测试用
