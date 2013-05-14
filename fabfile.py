@@ -66,6 +66,7 @@ def setup():
     with lcd(dev_project_dir):
         local('git init && git add . && git commit -m "initial commit"')
         local('git remote add origin %s@%s:%s' % ('user_name', 'host_ip_address', repo_project_dir))
+        local('git push origin master')
     with cd(deploy_dir):
         run('rm -rf env_project_name && mkdir env_project_name')
     with cd(deploy_env_dir):
