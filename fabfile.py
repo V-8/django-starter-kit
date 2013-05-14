@@ -62,13 +62,13 @@ def deploy():
 def setup():
     setup_dev_env()
     with cd(repo_dir):
-        run('git init --bare %s' % 'project_name')
+        run('rm -rf project_name && git init --bare %s' % 'project_name')
     with lcd(dev_project_dir):
         local('git init && git add . && git commit -m "initial commit"')
         local('git remote add origin %s@%s:%s' % ('user_name', 'host_ip_address', repo_project_dir))
     with cd(deploy_dir):
-        run('mkdir env_project_name && cd env_project_name')
-        run('git clone %s@%s:%s' % ('user_name', 'host_ip_address', repo_project_dir))
+        run('rm -rf env_project_name && mkdir env_project_name && cd env_project_name')
+        run('git clone %s' % (repo_project_dir))
     setup_deploy_env()
 
 
