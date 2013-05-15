@@ -20,8 +20,8 @@ source bin/activate
 pip install fabric
 django-admin.py startproject $1
 
-wget https://raw.github.com/creativito/django-starter-kit/bugfix/fabfile.py
-wget https://raw.github.com/creativito/django-starter-kit/bugfix/requirements.txt
+wget https://raw.github.com/creativito/django-starter-kit/master/fabfile.py
+wget https://raw.github.com/creativito/django-starter-kit/master/requirements.txt
 
 sed -i '' 's/{project_name}/'$1'/g' fabfile.py
 sed -i '' 's/{host_ip_address}/'$2'/g' fabfile.py
