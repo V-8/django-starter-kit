@@ -94,5 +94,5 @@ def setup_deploy_env():
         run('wget https://raw.github.com/creativito/django-starter-kit/bugfix/gunicorn.sh')
         run('wget https://raw.github.com/creativito/django-starter-kit/bugfix/supervisord.conf')
         run('wget https://raw.github.com/creativito/django-starter-kit/bugfix/requirements.txt')
-        run("sed -i 's/{gunicorn_project_name}/{project_name}/g' gunicorn.sh")
+        run("sed -i 's/{gunicorn_project_name}/{project_name}/g' gunicorn.sh && chmod 700 gunicorn.sh")
         run("sed -i 's/{gunicorn_project_name}/{project_name}/g' supervisord.conf")
