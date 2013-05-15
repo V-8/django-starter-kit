@@ -1,7 +1,7 @@
 # -*- coding: UTF-8 -*-
 from fabric.api import run, local
 from fabric.state import env
-from fabric.context_managers import lcd, cd
+from fabric.context_managers import lcd, cd, prefix
 import os
 
 # 替换以下参数
@@ -77,21 +77,20 @@ def setup():
 # 初始化开发环境，首次执行
 def setup_dev_env():
     with lcd(dev_env_dir):
-        local('source bin/activate')
-        with open(install_file) as f:
-            for inst in f.readlines():
-                local('pip install %s' % inst)
+        with prefix('source bin/activate'):
+            with open(install_file) as f:
+                for inst in f.readlines():
+                    local('pip install %s' % inst)
 
 
 # 初始化生产环境，首次执行
 def setup_deploy_env():
     with cd(deploy_env_dir):
         run('virtualenv-2.7 .')
-    with cd(deploy_env_dir):
-        run('source bin/activate')
-        with open(install_file) as f:
-            for inst in f.readlines():
-                run('pip install %s' % inst)
+        with prefix('source bin/activate'):
+            with open(install_file) as f:
+                for inst in f.readlines():
+                    run('pip install %s' % inst)
         run('wget https://raw.github.com/creativito/django-starter-kit/bugfix/gunicorn.sh')
         run('wget https://raw.github.com/creativito/django-starter-kit/bugfix/supervisord.conf')
         run('wget https://raw.github.com/creativito/django-starter-kit/bugfix/requirements.txt')
