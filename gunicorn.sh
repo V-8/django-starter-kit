@@ -15,8 +15,8 @@ NUM_WORKERS=10
 USER=root
 GROUP=root
 ADDRESS=0.0.0.0:8000
-SETTINGS={project_name}.settings
-WORKDIR=/var/www/production/env_{project_name}/{project_name}
+SETTINGS={gunicorn_project_name}.settings
+WORKDIR=/var/www/production/env_{gunicorn_project_name}/{gunicorn_project_name}
 cd $WORKDIR
 source ../bin/activate
 test -d $LOGDIR || mkdir -p $LOGDIR
