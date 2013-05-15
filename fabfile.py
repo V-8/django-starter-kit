@@ -87,6 +87,7 @@ def setup_dev_env():
 def setup_deploy_env():
     with cd(deploy_env_dir):
         run('virtualenv-2.7 .')
+    with cd(deploy_env_dir):
         run('source bin/activate')
         with open(install_file) as f:
             for inst in f.readlines():
