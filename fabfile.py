@@ -91,8 +91,8 @@ def setup_deploy_env():
         with open(install_file) as f:
             for inst in f.readlines():
                 run('pip install %s' % inst)
-        run('wget https://raw.github.com/creativito/django-starter-kit/master/gunicorn.sh')
-        run('wget https://raw.github.com/creativito/django-starter-kit/master/supervisord.conf')
-        run('wget https://raw.github.com/creativito/django-starter-kit/master/requirements.txt')
+        run('wget https://raw.github.com/creativito/django-starter-kit/bugfix/gunicorn.sh')
+        run('wget https://raw.github.com/creativito/django-starter-kit/bugfix/supervisord.conf')
+        run('wget https://raw.github.com/creativito/django-starter-kit/bugfix/requirements.txt')
         run("sed -i s/{gunicorn_project_name}/{project_name}/g' gunicorn.sh")
         run("sed -i s/{gunicorn_project_name}/{project_name}/g' supervisord.conf")
