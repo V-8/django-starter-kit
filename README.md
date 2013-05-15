@@ -1,8 +1,9 @@
-<h3>方便django项目的创建和部署</h3>
+<h3>Toolkit for django project creation and deployment</h3>
 
-<b>Stack: Nginx+Gunicorn+Django+PostgreSQL</b><br/>
+<b>Stack: Nginx + Gunicorn(with Supervisor) + Django + PostgreSQL</b><br/>
 
-django.sh -- 调用fabric配置开发/生产环境和git代码库<br/>
-fabricfile.py -- 自动化创建和部署<br/>
-requirements.txt -- pip安装列表<br/>
-gunicorn.sh -- 启动gunicorn
+django.sh -- Script for creating django project(development/deployment/git repository).<br/>
+fabricfile.py -- Automation tasks are all defined in this fabric file.<br/>
+requirements.txt -- Install list for pip.<br/>
+gunicorn.sh -- Script for starting gunicorn.<br/>
+supervisord.conf -- Configuration for supervisord, which actutally start/stop gunicorn.
