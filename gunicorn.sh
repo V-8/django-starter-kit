@@ -14,9 +14,9 @@ NUM_WORKERS=10
 # user/group to run as
 USER=root
 GROUP=root
-ADDRESS=127.0.0.1:8000
-SETTINGS=myproject.settings_production
-WORKDIR=/var/www/production/env_mytest/myproject
+ADDRESS=0.0.0.0:8000
+SETTINGS={project_name}.settings
+WORKDIR=/var/www/production/env_{project_name}/{project_name}
 cd $WORKDIR
 source ../bin/activate
 test -d $LOGDIR || mkdir -p $LOGDIR
