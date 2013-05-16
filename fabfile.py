@@ -62,8 +62,8 @@ def restart_appserver():
 def deploy():
     push_to_repo()
     pull_from_repo()
-    collect_static()
     restart_appserver()
+    collect_static()
 
 
 # 在git服务器上创建repository，并分别关联开发环境和生产环境

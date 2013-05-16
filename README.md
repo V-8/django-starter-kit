@@ -6,4 +6,5 @@
 <b>fabricfile.py</b> -- Automation tasks are all defined in this fabric file.<br/>
 <b>requirements.txt</b> -- Install list for pip.<br/>
 <b>gunicorn.sh</b> -- Script for starting gunicorn.<br/>
-<b>supervisord.conf</b> -- Configuration for supervisord, which actutally start/stop gunicorn.
+<b>supervisord.conf</b> -- Configuration for supervisord, which actutally start/stop gunicorn.<br/>
+<b>nginx.conf</b> -- Configuration for nginx.
