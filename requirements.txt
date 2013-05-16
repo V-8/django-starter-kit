@@ -4,3 +4,4 @@ gunicorn
 supervisor
 django-debug-toolbar
 south
+psycopg2

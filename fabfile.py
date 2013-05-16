@@ -44,6 +44,13 @@ def pull_from_repo():
         run('git pull origin master')
 
 
+# Collect static files
+def collect_static():
+    with cd(deploy_project_dir):
+        with prefix('source ../bin/activate'):
+            run('python manage_production.py collectstatic')
+
+
 # 重启guinicorn
 def restart_appserver():
     with cd(deploy_env_dir):
@@ -55,6 +62,7 @@ def restart_appserver():
 def deploy():
     push_to_repo()
     pull_from_repo()
+    collect_static()
     restart_appserver()
 
 
@@ -94,5 +102,8 @@ def setup_deploy_env():
         run('wget https://raw.github.com/creativito/django-starter-kit/master/gunicorn.sh')
         run('wget https://raw.github.com/creativito/django-starter-kit/master/supervisord.conf')
         run('wget https://raw.github.com/creativito/django-starter-kit/master/requirements.txt')
+        run('wget https://raw.github.com/creativito/django-starter-kit/master/nginx.conf')
         run("sed -i 's/{gunicorn_project_name}/{project_name}/g' gunicorn.sh && chmod 700 gunicorn.sh")
         run("sed -i 's/{gunicorn_project_name}/{project_name}/g' supervisord.conf")
+        run("sed -i 's/{nginx_project_name}/{project_name}/g' nginx.conf")
+        run("sed -i 's/{nginx_host_ip_address}/{host_ip_address}/g' nginx.conf")
