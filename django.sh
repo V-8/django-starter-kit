@@ -9,6 +9,7 @@
 # project_name=$1
 # host_ip_address=$2
 # user_name=$3
+# 例如：./django.sh 
 ################################################
 
 cd /Users/creativito/Documents/src/dev/
