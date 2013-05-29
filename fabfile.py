@@ -69,12 +69,14 @@ def deploy():
 # 在git服务器上创建repository，并分别关联开发环境和生产环境
 def setup():
     setup_dev_env()
+    run('[ -d %s ] || mkdir %s' & (repo_dir, repo_dir))
     with cd(repo_dir):
         run('rm -rf {project_name} && git init --bare %s' % '{project_name}')
     with lcd(dev_project_dir):
         local('git init && git add . && git commit -m "initial commit"')
         local('git remote add origin %s@%s:%s' % ('{user_name}', '{host_ip_address}', repo_project_dir))
         local('git push origin master')
+    run('[ -d %s ] || mkdir %s' & (deploy_dir, deploy_dir))
     with cd(deploy_dir):
         run('rm -rf env_{project_name} && mkdir env_{project_name}')
     with cd(deploy_env_dir):

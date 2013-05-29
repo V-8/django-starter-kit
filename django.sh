@@ -19,10 +19,16 @@ cd env_$1
 virtualenv-2.7 .
 source bin/activate
 pip install fabric
-django-admin.py startproject $1
+django-admin.py startproject --template=https://github.com/creativito/pinax-project-account/zipball/master $1
 
 wget https://raw.github.com/creativito/django-starter-kit/master/fabfile.py
 wget https://raw.github.com/creativito/django-starter-kit/master/requirements.txt
+
+#merge requirements.txt
+cd $1
+cat requirements.txt >> ../requirements.txt
+rm requirements.txt
+cd ..
 
 sed -i '' 's/{project_name}/'$1'/g' fabfile.py
 sed -i '' 's/{host_ip_address}/'$2'/g' fabfile.py
