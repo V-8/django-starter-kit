@@ -1,4 +1,4 @@
-django
+#django
 fabric
 gunicorn
 supervisor

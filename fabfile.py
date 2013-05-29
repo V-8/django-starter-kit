@@ -54,8 +54,9 @@ def collect_static():
 # 重启guinicorn
 def restart_appserver():
     with cd(deploy_env_dir):
-        run('supervisorctl shutdown')
-        run('supervisord -c supervisord.conf')
+        with prefix('source bin/activate'):
+            run('supervisorctl shutdown')
+            run('supervisord -c supervisord.conf')
 
 
 # 自动部署，命令：fab deploy
