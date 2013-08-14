@@ -19,10 +19,10 @@ cd env_$1
 virtualenv-2.7 .
 source bin/activate
 pip install fabric
-django-admin.py startproject --template=https://github.com/creativito/pinax-project-account/zipball/master $1
+django-admin.py startproject --template=https://github.com/V-8/pinax-project-account/zipball/master $1
 
-wget https://raw.github.com/creativito/django-starter-kit/master/fabfile.py
-wget https://raw.github.com/creativito/django-starter-kit/master/requirements.txt
+wget https://raw.github.com/V-8/django-starter-kit/master/fabfile.py
+wget https://raw.github.com/V-8/django-starter-kit/master/requirements.txt
 
 #merge requirements.txt
 cat requirements.txt >> $1/requirements.txt
