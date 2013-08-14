@@ -2,7 +2,7 @@
 
 ################################################
 # Program: 
-# django项目创建自动脚本(开发环境+git代码库+部署环境)
+# django项目创建自动脚本，采用pinax-project-account模板(开发环境+git代码库+部署环境)
 # History: 
 # 2013/05/14 zhouwei.evergreen@gmail.com First release 
 # Args:
