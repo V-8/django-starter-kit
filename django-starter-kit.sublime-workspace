@@ -1,0 +1,1087 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"filter",
+				"filter_value"
+			],
+			[
+				"fil",
+				"filter_value	(local, instance)"
+			],
+			[
+				"reque",
+				"request	(local, instance)"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"filt",
+				"filter_name	(local, instance)"
+			],
+			[
+				"sca",
+				"scales	(local, instance)"
+			],
+			[
+				"price",
+				"prices	(local, instance)"
+			],
+			[
+				"scal",
+				"Scale"
+			],
+			[
+				"tr",
+				"txn_id  (variable)"
+			],
+			[
+				"my",
+				"my_mailbox  (function)"
+			],
+			[
+				"m",
+				"my_dashboard  (function)"
+			],
+			[
+				"u",
+				"Username"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"i",
+				"i	Tag"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"bol",
+				"bolder"
+			],
+			[
+				"A",
+				"ALIPAY_SHARE_ACCOUNT  (variable)"
+			],
+			[
+				"last",
+				"last_plan_order"
+			],
+			[
+				"order",
+				"order_by"
+			],
+			[
+				"finish",
+				"finishtime"
+			],
+			[
+				"user",
+				"user_id__in"
+			],
+			[
+				"email",
+				"email_addr	(local, instance)"
+			],
+			[
+				"send",
+				"send_mail	(imported, instance)"
+			],
+			[
+				"ut",
+				"utc  (variable)"
+			],
+			[
+				"PROD",
+				"PROD_EXTRA_TRAFFIC_ID"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"url",
+				"url	(imported, instance)"
+			],
+			[
+				"myse",
+				"my_setup_ios_mobileconfig"
+			],
+			[
+				"HT",
+				"HttpResponse	(imported, instance)"
+			],
+			[
+				"http",
+				"HttpResponse"
+			],
+			[
+				"bill",
+				"bill_set"
+			],
+			[
+				"rad",
+				"radcheck_set"
+			],
+			[
+				"my_se",
+				"my_setup_windows  (function)"
+			],
+			[
+				"redi",
+				"redirect  (function)"
+			],
+			[
+				"red",
+				"HttpResponseRedirect  (unknown)"
+			],
+			[
+				"c",
+				"ChangePasswordView  (class)"
+			],
+			[
+				"change",
+				"change_radius_password  (function)"
+			],
+			[
+				"publ",
+				"published  (variable)"
+			],
+			[
+				"date",
+				"DateTimeField  (class)"
+			],
+			[
+				"use",
+				"use_global  (variable)"
+			],
+			[
+				"p",
+				"Preference  (class)"
+			],
+			[
+				"rend",
+				"render_to_response  (function)"
+			],
+			[
+				"htt",
+				"shortcuts  (module)"
+			],
+			[
+				"cre",
+				"Credit"
+			],
+			[
+				"init",
+				"init_credit()	(attribute, function)"
+			],
+			[
+				"aff",
+				"affiliated_user"
+			],
+			[
+				"session",
+				"session"
+			],
+			[
+				"vi",
+				"visit	(local, instance)"
+			],
+			[
+				"sess",
+				"session_key"
+			],
+			[
+				"try",
+				"try	Try/Except"
+			],
+			[
+				"context",
+				"RequestContext"
+			],
+			[
+				"Pro",
+				"PROD_CLASSES"
+			],
+			[
+				"U",
+				"Usergroup"
+			],
+			[
+				"si",
+				"site"
+			],
+			[
+				"ipn",
+				"ipn_obj	(local, instance)"
+			],
+			[
+				"set",
+				"settings	(imported, instance)"
+			],
+			[
+				"PA",
+				"PayPalStandardForm"
+			],
+			[
+				"form",
+				"forms"
+			],
+			[
+				"con",
+				"conf  (module)"
+			],
+			[
+				"place",
+				"place_order_pphs"
+			],
+			[
+				"plan",
+				"planname"
+			],
+			[
+				"Pa",
+				"PayPalPaymentsForm"
+			],
+			[
+				"login",
+				"login_required	(imported, instance)"
+			],
+			[
+				"pl",
+				"planid	(local, instance)"
+			],
+			[
+				"view",
+				"views"
+			],
+			[
+				"Tem",
+				"TemplateView  (class)"
+			],
+			[
+				"pay",
+				"payment_success"
+			],
+			[
+				"trade",
+				"trade_status	(local, instance)"
+			],
+			[
+				"ret",
+				"return_url"
+			],
+			[
+				"e",
+				"csrf_exempt"
+			],
+			[
+				"tra",
+				"tradeno"
+			],
+			[
+				"notif",
+				"notify_verify"
+			],
+			[
+				"cs",
+				"csrf_exempt"
+			],
+			[
+				"create",
+				"createtime"
+			],
+			[
+				"PO",
+				"POST"
+			],
+			[
+				"Rad",
+				"Radgroupcheck"
+			],
+			[
+				"res",
+				"HttpResponse  (class)"
+			],
+			[
+				"re",
+				"render_to_response  (function)"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"tem",
+				"TemplateResponseMixin  (class)"
+			],
+			[
+				"vie",
+				"views  (module)"
+			],
+			[
+				"max",
+				"max_digits"
+			],
+			[
+				"de",
+				"DecimalField  (class)"
+			],
+			[
+				"mod",
+				"Model  (class)"
+			],
+			[
+				"model",
+				"Model  (class)"
+			],
+			[
+				"mode",
+				"models	(imported, instance)"
+			],
+			[
+				"PRO",
+				"PROD_FREE_DAYS  (variable)"
+			],
+			[
+				"se",
+				"settings"
+			],
+			[
+				"RAD",
+				"radcheck"
+			],
+			[
+				"rAD",
+				"Radcheck"
+			],
+			[
+				"uSE",
+				"User"
+			],
+			[
+				"creat",
+				"create_prod_exp(confirmation)	(attribute, function)"
+			],
+			[
+				"username",
+				"username"
+			],
+			[
+				"db",
+				"db_column"
+			],
+			[
+				"F",
+				"False	(builtin, instance)"
+			],
+			[
+				"em",
+				"EmailBackend"
+			],
+			[
+				"auth",
+				"auth_backends"
+			],
+			[
+				"Si",
+				"SignupForm	(imported, instance)"
+			],
+			[
+				"f",
+				"forms"
+			],
+			[
+				"htp",
+				"HttpResponse"
+			],
+			[
+				"get",
+				"get_full_path"
+			],
+			[
+				"trans",
+				"transparent"
+			],
+			[
+				"dep",
+				"deploy_dir	(global, instance)"
+			],
+			[
+				"repo",
+				"repo_dir	(global, instance)"
+			],
+			[
+				"post",
+				"postgresql_psycopg2"
+			],
+			[
+				"setup",
+				"setup_deploy_env	(global, function)"
+			],
+			[
+				"proj",
+				"project_repo_dir	(global, instance)"
+			],
+			[
+				"host",
+				"host_ip_address"
+			],
+			[
+				"dev",
+				"dev_env_dir	(global, instance)"
+			],
+			[
+				"pul",
+				"pull_from_repo	(global, function)"
+			],
+			[
+				"push",
+				"push_to_repo	(global, function)"
+			],
+			[
+				"lo",
+				"logging"
+			],
+			[
+				"pro",
+				"proxy_url	(local, instance)"
+			],
+			[
+				"we",
+				"webproject	(imported, module)"
+			],
+			[
+				"rep",
+				"response	(local, instance)"
+			],
+			[
+				"file",
+				"file_name"
+			],
+			[
+				"ser",
+				"servers  (module)"
+			],
+			[
+				"co",
+				"core  (module)"
+			],
+			[
+				"time",
+				"timezone  (module)"
+			],
+			[
+				"er",
+				"ERROR	(imported, instance)"
+			],
+			[
+				"for",
+				"format"
+			],
+			[
+				"vid",
+				"video	(local, instance)"
+			],
+			[
+				"vide",
+				"video_Info"
+			],
+			[
+				"peo",
+				"popen  (function)"
+			],
+			[
+				"log",
+				"logging	(imported, module)"
+			],
+			[
+				"mo",
+				"ModelForm  (class)"
+			],
+			[
+				"ti",
+				"title	(attribute, instance)"
+			],
+			[
+				"Dat",
+				"DateTimeField  (class)"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 115.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"comman",
+				"Run Text Command"
+			],
+			[
+				"run",
+				"Run Window Command"
+			],
+			[
+				"command",
+				"Run Text Command"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Snippet: if",
+				"Snippet: if"
+			],
+			[
+				"Snippet: ",
+				"Snippet: ifchanged"
+			],
+			[
+				"Snippet: csrf",
+				"Snippet: csrf_token"
+			],
+			[
+				"Snippet: for",
+				"Snippet: for"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ife",
+				"Snippet: ifequal"
+			],
+			[
+				"Snippet: de",
+				"Snippet: debug"
+			],
+			[
+				"Snippet: cr",
+				"Snippet: csrf_token"
+			],
+			[
+				"comm",
+				"Git: Custom Command"
+			],
+			[
+				"cmd",
+				"Git: Custom Command"
+			],
+			[
+				"git",
+				"Git: Init"
+			],
+			[
+				"rope",
+				"Rope: Regenerate Global Module Cache"
+			],
+			[
+				"rope: ",
+				"Rope: New Project"
+			],
+			[
+				"pdb",
+				"SublimeREPL: Python - PDB current file"
+			],
+			[
+				"rop",
+				"Rope: New Project"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"snip",
+				"Snippet: New Property"
+			]
+		],
+		"width": 462.0
+	},
+	"console":
+	{
+		"height": 167.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/creativito/Documents/src/devstack_install_centos6/rdo.sh",
+		"/Users/creativito/Documents/src/devstack_install_centos6/pre.sh",
+		"/Users/creativito/Documents/src/devstack_install_centos6/163.sh",
+		"/Users/creativito/Documents/src/devstack/stack.sh",
+		"/Users/creativito/Documents/src/devstack/stackrc",
+		"/Users/creativito/Documents/src/devstack/tools/fixup_stuff.sh",
+		"/Users/creativito/Documents/src/devstack_install/centos6_pre.sh",
+		"/Users/creativito/Documents/src/devstack_install/centos_install_new.sh",
+		"/Users/creativito/Documents/src/devstack_install/centos6_install.sh",
+		"/Users/creativito/Documents/src/devstack_install_centos6/centos6_163.sh",
+		"/Users/creativito/Documents/src/devstack_install/create_stack_user.sh",
+		"/Users/creativito/Documents/src/openstack/centos6_pre.sh",
+		"/Users/creativito/Documents/src/openstack/install.sh",
+		"/Users/creativito/Documents/src/dev/qingyun_web/website/settings_production.py",
+		"/Users/creativito/Documents/src/dev/qingyun_web/website/urls.py",
+		"/Users/creativito/Documents/src/dev/qingyun_web/website/views.py",
+		"/Users/creativito/Documents/src/dev/qingyun_web/product/models.py",
+		"/Users/creativito/Google 云端硬盘/install.sh",
+		"/Users/creativito/Documents/src/dev/env_appster/appster/appster/views.py",
+		"/Users/creativito/Documents/src/dev/qingyun_web/website/templates/_navbar.html",
+		"/Users/creativito/Documents/src/dev/qingyun_web/website/templates/_account_bar.html",
+		"/Users/creativito/Documents/src/dev/qingyun_web/website/templates/_topbar.html",
+		"/Users/creativito/Documents/src/dev/qingyun_web/website/templates/homepage.html",
+		"/Users/creativito/Documents/src/dev/qingyun_web/website/templates/_footer.html",
+		"/Users/creativito/Documents/src/dev/qingyun_web/website/settings.py",
+		"/Users/creativito/Documents/src/dev/qingyun_web/website/templates/site_base.html",
+		"/Users/creativito/Documents/src/dev/qingyun_web/website/templates/me/my_service.html",
+		"/Users/creativito/Documents/src/dev/qingyun_web/product/views.py",
+		"/Users/creativito/Documents/src/dev/qingyun_web/me/views.py",
+		"/Users/creativito/Desktop/main.cf",
+		"/Users/creativito/Documents/Books/创业/认识商业.txt",
+		"/Users/creativito/Documents/src/dev/env_appster/appster/appster/settings.py",
+		"/Users/creativito/Documents/src/dev/env_appster/appster/fixtures/initial_data.json",
+		"/Users/creativito/Documents/src/dev/env_appster/appster/maker/models.py",
+		"/Users/creativito/Documents/src/dev/env_appster/appster/appster/static/bootscroller/css/font-awesome.css",
+		"/Users/creativito/Documents/src/dev/env_appster/appster/appster/templates/_content.html",
+		"/Users/creativito/Documents/src/dev/env_appster/appster/appster/urls.py",
+		"/Users/creativito/Documents/src/dev/qingyun_web/website/templates/product/plan.html",
+		"/Users/creativito/Documents/src/dev/env_appster/appster/appster/static/css/flat-ui.css",
+		"/Users/creativito/Documents/src/dev/env_appster/appster/appster/static/bootscroller/js/function.js",
+		"/Users/creativito/Documents/src/dev/env_appster/appster/pinax_theme_bootstrap/templates/theme_bootstrap/base.html",
+		"/Users/creativito/Documents/src/dev/env_appster/appster/appster/static/bootscroller/css/flat-ui.css",
+		"/Users/creativito/Documents/src/dev/env_appster/appster/appster/views.phy",
+		"/Users/creativito/Documents/src/dev/qingyun_web/website/templates/me/me_base.html",
+		"/Users/creativito/Documents/src/dev/qingyun_web/affiliate/models.py",
+		"/Users/creativito/Documents/src/dev/qingyun_web/website/static/css/flat-ui.css",
+		"/Users/creativito/Documents/src/dev/qingyun_web/website/templates/me/my_credit.html",
+		"/Users/creativito/Documents/src/dev/qingyun_web/affiliate/views.py",
+		"/Users/creativito/Documents/src/dev/qingyun_web/fixtures/initial_data.json",
+		"/Users/creativito/Documents/Books/沟通/瞬间赢得信任的冷读术.txt",
+		"/Users/creativito/Documents/src/dev/env_appster/appster/appster/templates/_top_menu.html",
+		"/Users/creativito/Documents/src/dev/env_appster/appster/appster/templates/maker/my_dashboard.html",
+		"/Users/creativito/Documents/src/dev/env_website/lib/python2.7/site-packages/django/middleware/http.py",
+		"/Users/creativito/Documents/src/dev/qingyun_web/website/http.py",
+		"/Users/creativito/Documents/src/dev/qingyun_web/paypal/standard/ipn/models.py",
+		"/Users/creativito/Documents/src/dev/qingyun_web/website/templates/me/setup_ios.html",
+		"/Users/creativito/Documents/src/dev/env_appster/appster/appster/templates/maker/my_applist.html",
+		"/Users/creativito/Documents/src/dev/env_appster/appster/appster/static/bootscroller/js/application.js",
+		"/Users/creativito/Documents/src/dev/qingyun_web/website/templates/me/pac/t.pac",
+		"/Users/creativito/Documents/src/dev/qingyun_web/website/templates/me/pac/t_global.pac",
+		"/Users/creativito/Documents/src/dev/qingyun_web/website/static/bootstrap/css/bootstrap-responsive.css",
+		"/Users/creativito/Documents/src/dev/env_appster/lib/python2.7/site-packages/account/urls.py",
+		"/Users/creativito/Documents/src/dev/env_appster/appster/pinax_theme_bootstrap/templates/account/signup.html",
+		"/Users/creativito/Documents/src/dev/env_appster/appster/appster/templates/homepage.html",
+		"/Users/creativito/Documents/src/dev/env_appster/appster/pinax_theme_bootstrap/templates/account/login.html",
+		"/Users/creativito/Documents/src/dev/qingyun_web/account/views.py",
+		"/Users/creativito/Documents/src/dev/env_appster/appster/appster/templates/_account_bar.html",
+		"/Users/creativito/Documents/src/dev/env_appster/appster/pinax_theme_bootstrap/templates/account/logout.html",
+		"/Users/creativito/Documents/src/dev/env_appster/appster/account/models.py",
+		"/Users/creativito/Documents/src/dev/env_appster/appster/account/forms.py",
+		"/Users/creativito/Documents/src/dev/env_appster/appster/appster/static/bootscroller/css/bootstrap.css",
+		"/Users/creativito/Documents/src/dev/env_appster/appster/pinax_theme_bootstrap/templates/_messages.html",
+		"/Users/creativito/Documents/src/dev/env_appster/appster/account/views.py",
+		"/Users/creativito/Documents/src/dev/env_appster/appster/maker/urls.py",
+		"/Users/creativito/Documents/src/dev/env_appster/appster/maker/views.py",
+		"/Users/creativito/Documents/src/dev/env_appster/appster/appster/templates/signup.html",
+		"/Users/creativito/Documents/src/dev/qingyun_web/pinax_theme_bootstrap_account/templates/account/_signup_sidebar.html",
+		"/Users/creativito/Documents/src/dev/qingyun_web/paypal/standard/models.py",
+		"/Users/creativito/Documents/src/dev/env_appster/appster/appster/templates/_footer.html",
+		"/Users/creativito/Documents/src/dev/env_appster/appster/appster/settings_production.py",
+		"/Users/creativito/Documents/src/flat-ui/Flat UI HTML - Personal License/HTML/UI/bootstrap/css/bootstrap.css",
+		"/Users/creativito/Documents/src/dev/env_appster/appster/appster/static/bootscroller/css/style.css",
+		"/Users/creativito/Library/Application Support/Sublime Text 2/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/Users/creativito/Documents/src/dev/env_appster/appster/appster/static/bootstarter/css/style.css",
+		"/Users/creativito/Documents/src/dev/env_website/website/account/views.py",
+		"/Users/creativito/Documents/src/dev/qingyun_web/sftp-config.json",
+		"/Users/creativito/Documents/src/dev/qingyun_web/website/templates/radpress/base.html",
+		"/Users/creativito/Documents/src/dev/qingyun_web/manage.py",
+		"/Users/creativito/Documents/src/dev/env_website/website/website/templates/_footer.html",
+		"/Users/creativito/Documents/src/dev/qingyun_web/website/settings.py.20130816",
+		"/Users/creativito/Documents/src/dev/env_website/update.sh",
+		"/Users/creativito/Documents/src/dev/env_website/fabfile.py",
+		"/Users/creativito/Documents/src/dev/qingyun_web/website/tasks.py",
+		"/Users/creativito/Library/Application Support/Sublime Text 2/Packages/User/RunCommand.sublime-settings",
+		"/Users/creativito/Library/Application Support/Sublime Text 2/Packages/RunCommand/RunCommand.sublime-settings",
+		"/Users/creativito/Documents/src/dev/qingyun_production/sftp-config.json",
+		"/Users/creativito/Library/Application Support/Sublime Text 2/Packages/User/sftp_servers/qingyun_web",
+		"/Users/creativito/Library/Application Support/Sublime Text 2/Packages/User/FTPSync.sublime-settings",
+		"/Users/creativito/Documents/src/dev/env_website/website/website/views.py",
+		"/Users/creativito/Documents/src/dev/env_website/website/website/templates/site_base.html",
+		"/Users/creativito/Documents/src/dev/env_website/website/website/templates/me/my_preference.html",
+		"/Users/creativito/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/creativito/Documents/src/dev/env_appster/fabfile.py",
+		"/Users/creativito/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/creativito/Documents/src/dev/env_website/website/product/models.py",
+		"/Users/creativito/Documents/src/dev/env_website/website/product/views.py",
+		"/Users/creativito/Documents/src/dev/env_website/website/website/settings.py",
+		"/Users/creativito/Documents/src/dev/env_appster/appster/manage_production.py",
+		"/Users/creativito/Documents/src/dev/env_website/website/website/settings_production.py",
+		"/Users/creativito/Documents/src/dev/django-starter-kit/fabfile.py",
+		"/Users/creativito/Documents/src/dev/django-starter-kit/django.sh",
+		"/Users/creativito/Documents/src/dev/env_website/website/alipay/config.py",
+		"/Users/creativito/Documents/src/dev/env_website/website/alipay/views.py",
+		"/Users/creativito/Documents/src/dev/django-starter-kit/supervisord.conf",
+		"/Users/creativito/Documents/src/dev/env_website/website/website/tasks.py",
+		"/Users/creativito/Documents/src/dev/env_website/website/account/models.py",
+		"/Users/creativito/Documents/src/dev/env_website/website/taskmail/models.py",
+		"/Users/creativito/Documents/src/dev/env_website/website/fixtures/initial_data.json",
+		"/Users/creativito/Documents/src/dev/env_website/website/knowledge/models.py",
+		"/Users/creativito/Documents/src/dev/env_website/website/website/templates/product/plan.html",
+		"/Users/creativito/Documents/src/dev/env_website/website/website/templates/taskmail/untitled.py",
+		"/Users/creativito/Documents/src/dev/env_website/website/website/templates/taskmail/traffic_alert_subject.txt",
+		"/Users/creativito/Documents/src/dev/env_website/website/website/templates/taskmail/traffic_alert_message.txt",
+		"/Users/creativito/Documents/src/dev/env_website/website/website/templates/taskmail/premium_expire_subject.txt",
+		"/Users/creativito/Documents/src/dev/env_website/website/website/templates/taskmail/premium_expire_message.txt",
+		"/Users/creativito/Documents/src/dev/env_website/website/website/templates/taskmail/free_expire_message.txt",
+		"/Users/creativito/Documents/src/dev/env_website/website/me/views.py",
+		"/Users/creativito/Documents/src/dev/env_website/website/website/templates/me/my_service.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/creativito/Documents/src/dev/env_appster",
+			"/Users/creativito/Documents/src/dev/qingyun_web",
+			"/Users/creativito/Documents/src/dev/env_appster/appster",
+			"/Users/creativito/Documents/src/dev/env_website/website/",
+			"/Users/creativito/Documents/src/dev/env_website/website/knowledge",
+			"/Users/creativito/Documents/src/dev/env_website/website/knowledge/templates/django_knowledge",
+			"/Users/creativito/Documents/src/dev/env_website/website/knowledge/templates",
+			"<open folders>",
+			"/Users/creativito/Documents/src/alipay_python",
+			"/Users/creativito/Documents/src/dev/env_website/lib/python2.7/site-packages/django,<open folders>",
+			"/Users/creativito/Documents/src/dev/env_website/lib/python2.7/site-packages/django",
+			"/Users/creativito/Documents/src/dev/env_website",
+			"<open folders>",
+			"<open files>,/Users/creativito/Documents/src/dev/env_website/lib/python2.7/site-packages/account",
+			"<open files>",
+			"/Users/creativito/Documents/src/dev/env_website/lib/python2.7/site-packages/pinax_theme_bootstrap_account",
+			"<open files>,<open folders>",
+			"<open files>",
+			"",
+			"/Users/creativito/Documents/src/dev/env_website/website",
+			"/Users/creativito/Documents/src/dev/env_website",
+			"/Users/creativito/Documents/src/dev/env_website/website",
+			"<open files>",
+			"/Users/creativito/Documents/src/dev/env_website",
+			"<open files>",
+			"<open folders>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"DEST",
+			"git",
+			"generate_code",
+			"usergroup",
+			"orders",
+			"\n",
+			"mynetworks",
+			"hostname",
+			"mynetwork",
+			"instagram.com",
+			"modal",
+			"fa-icon-search",
+			"page",
+			"?",
+			"filter",
+			"fa-icon-rocket",
+			".btn",
+			"btn",
+			"btn-default",
+			"hover",
+			"btn-huge",
+			"fixed",
+			"navbar",
+			"right",
+			"navbar",
+			"ticks.png",
+			"ticks",
+			"border-top",
+			"navbar",
+			"navbar-inner",
+			"navbar",
+			"opacity",
+			"navbar",
+			"http://theymakeapps.s3.amazonaws.com/images",
+			"app_shots",
+			"bootscroller/",
+			"2309",
+			"2308",
+			"2309",
+			"2308",
+			"trigger_wrapper",
+			"trigger",
+			"2308",
+			"circle",
+			"phone",
+			"gift",
+			"time",
+			"nResult",
+			"return",
+			"phone",
+			"tablet",
+			"=\"#\"",
+			"select",
+			"nav-tabs",
+			"tab-pane",
+			"tab-content",
+			"tab-pane",
+			"EBEDEF",
+			"tab-pane",
+			"EBEDEF",
+			"\"/site_media/static/",
+			"nav-tabs",
+			"nav-list",
+			"mail",
+			"alert-",
+			"nav-list",
+			"right",
+			"me_",
+			"qingyun",
+			"mail",
+			"mynetwork",
+			"Confirmation email sent to",
+			".footer",
+			"input",
+			"right",
+			"<如何使用>",
+			"send_signals",
+			"PAYPAL_IPN_CODE",
+			"send_signals",
+			"payment_was_flagged",
+			"paypal_ipn_handler",
+			"17A186",
+			".navbar",
+			".btn",
+			"nav-top",
+			"makeapps",
+			"jquery",
+			"showApp",
+			"\"{% static \" bootscroller",
+			"png \" %}\"",
+			"demo-col",
+			"modal",
+			"nav-list",
+			"divider",
+			"nav-header",
+			".nav-counter",
+			"http://theymakeapps.s3.amazonaws.com/images/iphone.gif",
+			"border-top: 2px",
+			"btn-block",
+			"btn-square-huge",
+			"padding-right",
+			"modal",
+			"padding-right",
+			"media",
+			"container",
+			".navbar-fixed-bottom .container",
+			"940px",
+			"940px\\",
+			"940px",
+			"100%",
+			"row-fluid",
+			"width: 100%",
+			"100%",
+			"940px",
+			"100%",
+			".container",
+			"volume",
+			"min-width",
+			"140px",
+			"180px",
+			"dropdown",
+			"dropdown-menu",
+			"90%",
+			"80%",
+			"70%",
+			"60%",
+			"75%",
+			"70%"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"modal-sidebar",
+			"../img/frame",
+			"../img",
+			"../img/",
+			"..",
+			"",
+			"1",
+			"2309",
+			"1",
+			"2309",
+			"\"{% static \"bootscroller/",
+			"my_",
+			"\"{% static \"bootscroller",
+			"png\" %}\"",
+			"../img/iphone.gif",
+			".btn-square",
+			".btn_google",
+			"</h6>",
+			"<h6>",
+			"class=\"btn btn-default\"",
+			"auto 30px",
+			"width: 70%;",
+			"src=\"{% static \"bootscroller/js/",
+			"<script src=\"{% static \"bootscroller/js/",
+			"../img/",
+			"\"{% static \"bootscroller/images/",
+			"href=\"{% static \"images",
+			"src=\"{% static \"images",
+			"src=\"{% static \"bootscroller/",
+			"href=\"{% static \"bootscroller/",
+			"href=\"{% static \"bootscroller/css/",
+			"\"{% static \"images",
+			"../images/",
+			"\"{% static \"bootstarter/",
+			"\"{% static \"",
+			"src=\"{% static \"",
+			"{project_name}",
+			"{user_name}",
+			"{host_ip_address}",
+			"/static/img/ico",
+			"/static",
+			"/static/img/ico",
+			"/static",
+			"/billing"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 166.0
+	},
+	"output.git":
+	{
+		"height": 114.0
+	},
+	"output.rope_python_documentation":
+	{
+		"height": 174.0
+	},
+	"output.sftp":
+	{
+		"height": 251.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"you-get/src/you_get/common.py"
+			],
+			[
+				"python",
+				"server/python/app.yaml"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 292.0,
+	"status_bar_visible": true
+}
